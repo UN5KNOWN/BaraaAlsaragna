@@ -702,6 +702,11 @@ video {
   left: 20px;
   z-index: 100;
 }
+@media (max-width: 767px) {
+  .contact .info .social .info-icon {
+    display: none;
+  }
+}
 .contact .info .social .tooltip {
   display: none;
   position: absolute;
