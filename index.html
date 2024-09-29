@@ -495,9 +495,12 @@
 
     <div class="footer">
       <p>
-        &copy; 2024 - Coded By <span class="word">Hassan</span>, All Right
-        Reserved
+        &copy; <span id="year"></span> - Coded By
+        <span class="word">Hassan</span>, All Right Reserved
       </p>
+      <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+      </script>
     </div>
   </body>
 </html>
